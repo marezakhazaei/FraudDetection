@@ -1,0 +1,148 @@
+last 5 years papers
+compare algorithms 
+
+journal papers
+conference papers
+books
+
+ACM
+Ieee
+proquest
+google scholar
+
+====================
+According to a recent article (Academic Writing Association, 2019) …
+As mentioned before (Academic Writing Association, 2019) …
+====================
+
+parameters of fraud detection from bank perspective
+===============================
+Machine learning algorithms:
+	- KNN: (N) (OK)++
+	- Logistic Regression : fast training speed(P) (OK)++
+	- Decision Tree: (N)
+	- Neural Network:
+	- Random forest: (N) OK++
+	- Support Vector Machine:
+	- Naive Bayes: fast training speed(P) (OK)++
+===============================
+Data pre-processing:
+	- Data cleaning:
+		- Remove missing values
+		- Remove noisy data
+	- Data Transformation:
+		- Normalization
+		- Standardization
+	- Data Reduction:
+		- Multicollinearity
+		- Dimensionality reduction
+===============================
+Data balancing:
+	- Oversampling
+	- Undersampling
+===============================
+Data sources:
+https://www.kaggle.com/mlg-ulb/creditcardfraud 
+https://www.kaggle.com/mishra5001/credit-card
+https://www.kaggle.com/gpreda/credit-card-fraud-detection-predictive-models/data
+https://www.kaggle.com/kartik2112/fraud-detection
+===============================
+Contents:
+-. Abstract (300)
+1. Introduction (600)
+	Credit card fraud detection techniques 200
+	Machine learning -200
+2. Literature review (2600)=>-150
+	Introduction
+	Definitions and  problems:
+		Credit card fraud transaction
+		Behaviour of customer
+	Algorithms: -150
+	Implementation:
+		Data quality checks
+		Preprocessing
+		Data balancing
+		Cross validation
+	Evaluation and testing
+3. Research gap (300)
+	aim
+	question
+	objectives
+	deliverables 
+	justification
+4. Methodology (2350)
+	Research onion
+		Research philosophy
+		Research approach
+		Research methodology 
+		Research strategy 
+		Time horizon
+		Data collection
+		Tools & techniques
+	Research process 
+5. Data analysis and implementation (5100)
+	Data analysis 1500
+	Model development 2400
+	Evaluation 1100
+	User interface (100)
+6. results and conclusion (700)
+	RQ1...…….
+7. limitation and future work (550)
+8. Threats to validity (50)
+-.References:
+-.Appendices:
+	- codes
+	- datasets
+
+=================================
+hyperlink
+add new column for relevant citations 
+data collection: justification to use relevant datasets, recent datasets, how accurate the datasets for analysis
+after literature have a summery 
+avoid some, try, several, numerous , ...
+correct APA and citations
+=================================
+Time horizon: 
+Primary and secondary research
+Data analysis and Implementation sections
+Future work: 
+	- get confirmation from customer for detect fraud (interactive system)
+	- using Tenserflow instead of scikit-learn
+	- Compare reinforcement learning and deep learning algorithms with supervised algorithms
+	- Using Apache Spark and R for data cleaning 
+=================================
+data quality 
+Pragmatism
+
+introduction should in future and present tense in third person
+
+introduction to problem
+why fraud occur
+
+summarize the literature review
+
+problem statement and gap
+
+propose of the study : benefits.
+
+rationale: reason behind the project and justification
+
+research questions :research questions full fill the research question refer to section 3
+
+significance of study: workflow of project
+
+definition of terms: acronyms-abbreviation
+
+assumption and limitation: data, environment, security, more accurate , technology - in week 3
+
+nature of the study : week 3
+---------------------------------------------------
+abstract :
+not in future tense
+
+problem
+solutions
+technology
+conclusion
+
+

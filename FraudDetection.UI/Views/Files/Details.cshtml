@@ -1,0 +1,42 @@
+﻿@model FraudDetection.UI.Models.SourceFileDetailViewModel
+
+@{
+    ViewData["Title"] = "Results";
+}
+
+<h1>Results</h1>
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.FileName)
+        </dt>
+        <dd class="col-sm-10">
+            <a class="col-sm-10" target="_blank" href="/dataset/@Model.FilePath/@Model.FileName"> @Model.FileName</a>
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CreateDate)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CreateDate)
+        </dd>
+    </dl>
+</div>
+<div class="row">
+    @foreach (var item in Model.Images)
+    {
+        <div class="col-sm-2">
+            <div>
+                <a target="_blank" href="/dataset/@Model.FilePath/@item.FileName">
+                    <img src="/dataset/@Model.FilePath/@item.FileName" class="image-result">
+                </a>
+                <div class="caption">
+                    <p>@item.FileCaption</p>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
